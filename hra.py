@@ -27,14 +27,12 @@ for hraci in hrac:
             exit
         else:
             def hod_hrace():
-                nahodne_cislo = random.randint(0, 5)
-                souper.pop(nahodne_cislo)
-                print(souperi)
+                for x in range(random.randint(0,5)):
+                    souper.pop(random.randint(0, (len(souper)-1)))
 
             def hod_soupere():
-                nahodne_cislo2 = random.randint(0, 5)
-                hrac.pop(nahodne_cislo2)
-                print(hraci)
+                for x in range(random.randint(0,5)):
+                    hrac.pop(random.randint(0, (len(hrac)-1)))
 
 hod_hrace()
 hod_soupere()
