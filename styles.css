@@ -1,0 +1,13 @@
+#topbox{
+    display:flex; 
+    flex-direction: row;
+    gap:10rem;
+}
+#center{
+    margin-left: 35%;
+    display:grid;
+    place-items:center;
+}
+#left{
+    place-items:left;
+}
