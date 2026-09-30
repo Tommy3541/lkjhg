@@ -8,3 +8,7 @@ function downloadGame() {
 			link.click();
 		});
 }
+
+function aler(){
+	alert("our team is the best")
+}
