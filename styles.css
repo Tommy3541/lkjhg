@@ -1,16 +1,29 @@
 #topbox{
-    display:flex; 
-    flex-direction: row;
-    gap:10rem;
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) minmax(0, 2fr) minmax(160px, 1fr);
+    align-items: start;
+    gap: 2rem;
 }
 #center{
-    margin-left: 35%;
-    display:grid;
-    place-items:center;
+    grid-column: 2;
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
 }
 #left{
-    place-items:left;
+    grid-column: 1;
 }
 body{
     background-color: aqua;
+    margin: 0;
+    padding: 2rem;
+}
+#design-section {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+#design-section img {
+    max-width: 100%;
+    height: auto;
 }
