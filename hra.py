@@ -23,7 +23,7 @@ maxhrac = 5
 maxsouper = 5
 
 while True:
-    inasdasda = input("chcete hodit kostku: \n")
+    inasdasda = input("chcete hodit kostku?: \n")
     if inasdasda == "ano":
         time.sleep(0.5)
         rand = random.randint(0, maxhrac)
@@ -51,6 +51,7 @@ while True:
 
         if len(souper) == 0:
             print("vyhra")
+            break
         elif len(hrac) == 0:
             print("prohra")
             break
