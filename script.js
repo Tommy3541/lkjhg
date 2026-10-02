@@ -1,14 +1,21 @@
 function downloadGame() {
-	fetch('https://raw.githubusercontent.com/Tommy3541/lkjhg/refs/heads/main/hra.py')
-		.then(response => response.blob())
-		.then(file => {
-			const link = document.createElement('a');
-			link.href = URL.createObjectURL(file);
-			link.download = 'hra.py';
-			link.click();
-		});
+    fetch(
+        "https://raw.githubusercontent.com/Tommy3541/lkjhg/refs/heads/main/hra.py",
+    )
+        .then((response) => response.blob())
+        .then((file) => {
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(file);
+            link.download = "hra.py";
+            link.click();
+        });
 }
 
-function aler(){
-	alert("our team is the best")
+function aler() {
+    alert("our team is the best");
+}
+
+function team() {
+    let nej = "Nejlepší tým je tym 2";
+    document.getElementById("nej").textContent = nej;
 }
