@@ -53,10 +53,10 @@ while True:
             print("vyhra")
         elif len(hrac) == 0:
             print("prohra")
-            exit
+            break
         elif len(hrac) == 0 and len(souper) == 0:
             print("remiza")
-            exit
+            break
                 
 
                 
