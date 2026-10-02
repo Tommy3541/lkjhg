@@ -58,6 +58,7 @@ while True:
             print("remiza")
             break
                 
+<<<<<<< HEAD
 
                 
 
@@ -69,5 +70,11 @@ while True:
 hod_hrace()
 hod_soupere()
 =======
+
+>>>>>>> 22ea772d2ddd1f1b37a31dd443038c83322629a2
+=======
+
+                
+
 
 >>>>>>> 22ea772d2ddd1f1b37a31dd443038c83322629a2
