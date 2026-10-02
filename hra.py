@@ -33,6 +33,6 @@ for hraci in hrac:
             def hod_soupere():
                 for x in range(random.randint(0,5)):
                     hrac.pop(random.randint(0, (len(hrac)-1)))
-
+                    
 hod_hrace()
 hod_soupere()
